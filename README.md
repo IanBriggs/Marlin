@@ -1,6 +1,6 @@
 # Changes made for Utah version
 
-Robert Mendel D6 configuration used as base config
+Robert Mendon D6 configuration used as base config
 
 Configuration.h:
 - Utah added to config author
