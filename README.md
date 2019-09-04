@@ -1,3 +1,27 @@
+# Changes made for Utah version
+
+Robert Mendel D6 configuration used as base config
+
+Configuration.h:
+- Utah added to config author
+- cutom bootscreen turned on (and added _Bootscreen.h)
+- cutom machine name changed to "Utah D6"
+- increased max hotend temp to 280 to reduce triggering max temperature error
+- reduced max xy feedrate to 100
+- turned on level_bed_corners
+- changed preheat options
+- removed individual axis homing menu
+
+Configuration_adv.h
+- removed printer info menu item
+- turned on long string scrolling
+- turned on hollow frame for xyz and menus
+
+Language_en.h
+- changed preheat name ABS to PETG
+
+
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
